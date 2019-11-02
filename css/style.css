@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#container{
+}
+#whole{
+    /* background-color:aqua; */
+    max-width: 42rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.625rem 1.3125rem;
+}
+
+#name{
+    font-size: 1.75rem;
+    line-height: 4.3rem;
+    margin-top: 0;
+    margin-top: 2.625rem;
+    /* padding: 5px 10px; */
+    /* color: brown; */
+}
+
+#menu{
+    margin: 15px 0 25px 0;
+}
+#menu ul{
+    margin: 0 auto;
+    list-style: none;
+}
+#menu ul li{
+    display: inline-block;
+    padding: 5px;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: rgb(70, 69, 69);
+    font-size: 1.3rem;
+}
+#menu ul li a:hover{
+    color: brown;
+}
+#head{
+    display: flex;
+    margin-bottom: 4.375rem;
+}
+#image{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-bottom: 0;
+    /* min-width: 50%; */
+    border-radius: 50%;
+}
+#image img{
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition-delay: 500ms;
+    border-radius: 50%; */
+    width: 3.5rem;
+    height: 3rem;
+}
+#des{
+    margin-left: 1rem;
+    /* padding: 0.5rem; */
+    font-size: 1.3rem;
+    font-weight: 1rem;
+}
+#des a{
+    text-decoration: none;
+} 
+#post{
+    margin-bottom: 3rem;
+}
+#post h1{
+    font-size: 2rem;
+    padding: 0.7rem 0;
+}
+#post h1 a{
+    text-decoration: none;
+}
+#date{
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+}
+#post p{
+    font-size: 1.5rem;
+}
+
+
+#footer{
+
+}
+#social{
+    /* margin: 0 auto; */
+}
+#social a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    /* color: rgb(2, 2, 2); */
+}
+#social a:hover{
+    border-bottom: 1px solid rgb(100, 98, 98);
+    color: rgb(100, 98, 98);
+}
+.fa-instagram{
+    color:#3f729b;
+}
+a:hover>.fa-instagram{
+    color: #DD2A7B;
+}
+.fa-github{
+    color: black;
+}
+.fa-linkedin{
+    color: #0e76a8;
+}
+.fa-envelope{
+    color: #B23121;
+}
